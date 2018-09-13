@@ -69,14 +69,14 @@ public class Main {
      * @return Возвращает строку статуса для ИП
      */
     private static String getStateMessageIp(String state) {
-        return StatusMessage.StateMessagesForIp[Integer.parseInt(state)];
+        return StateMessages.StateMessagesForIp[Integer.parseInt(state)];
     }
 
     /**
      * @return Возвращает строку статуса для Юридического лица
      */
     private static String getStateMessageUl(String state) {
-        return StatusMessage.StateMessagesForUl[Integer.parseInt(state)];
+        return StateMessages.StateMessagesForUl[Integer.parseInt(state)];
     }
 
 }

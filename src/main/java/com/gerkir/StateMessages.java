@@ -1,6 +1,6 @@
 package com.gerkir;
 
-public class StatusMessage {
+class StateMessages {
     //Статусы для юридических лиц
     static final String[] StateMessagesForUl = {
             "Налогоплательщик зарегистрирован в ЕГРН и имел статус действующего в указанную дату",
